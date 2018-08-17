@@ -10,15 +10,6 @@ body {
 	font-family: 'Times New Roman', serif;
 }
 
-.wrapper {
-	width: 960px;
-	margin: 0 auto;
-	background: #fff;
-	padding: 0 45px 20px;
-}
-
-/* Write all remaining styles here */
-
 /* Media */
 
 img, video, audio {
@@ -26,3 +17,35 @@ img, video, audio {
 }
 
 /* Layout */
+
+
+.wrapper {
+	width: 960px;
+	margin: 0 auto;
+	background: #fff;
+	padding: 0 45px 20px;
+}
+
+.col-1 {
+  float: left;
+  width: 32%;
+  background: #eee;
+}
+
+.col-2 {
+  float: left;
+  width: 66%%;
+  background: #eee;
+}
+
+.col-3 {
+  background: #eee;
+}
+
+[class*="col-"] {
+  margin-left: 2%;
+}
+
+.first {
+  margin-left: 0%;
+}
