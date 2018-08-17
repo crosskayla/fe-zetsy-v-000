@@ -29,6 +29,11 @@ img, video, audio {
 
 /* Layout */
 
+a {
+	color: #1783bb;
+	text-decoration: none;
+}
+
 h1 {
 	padding-bottom: 10px;
 	margin: 0 0 5px;
